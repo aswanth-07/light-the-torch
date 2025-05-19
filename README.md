@@ -23,8 +23,8 @@ Here's how this repo is structured:
 
 | Notebook File Name              | Topic / Module Covered                        | Key Concepts Demonstrated                                                                                   | Status       |
 | ------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ |
-| [`01 - PyTorch Fundamentals.ipynb`](notebooks/01%20-%20PyTorch%20Fundamentals.ipynb) | Intro to PyTorch Tensors                   | Tensor creation & manipulation (indexing, reshaping, viewing, stacking, squeezing, unsqueezing, permuting), common operations, datatypes, NumPy bridge, GPU acceleration, reproducibility                 | ✅ Completed |
-| [`02 - PyTorch Workflow.ipynb`](notebooks/02%20-%20PyTorch%20Workflow.ipynb)        | End-to-End Linear Regression               | Custom `nn.Module`, device-agnostic code, training loop, loss/optimizer, predictions, save/load model       | ✅ Completed |
+| [`01 - PyTorch Fundamentals.ipynb`](notebooks/00%20-%20PyTorch%20Fundamentals.ipynb) | Intro to PyTorch Tensors                   | Tensor creation & manipulation (indexing, reshaping, viewing, stacking, squeezing, unsqueezing, permuting), common operations, datatypes, NumPy bridge, GPU acceleration, reproducibility                 | ✅ Completed |
+| [`02 - PyTorch Workflow.ipynb`](notebooks/01%20-%20PyTorch%20Workflow.ipynb)        | End-to-End Linear Regression               | Custom `nn.Module`, device-agnostic code, training loop, loss/optimizer, predictions, save/load model       | ✅ Completed |
 
 > ✨ *I'll keep this table updated as I work through new notebooks and modules!*
 
