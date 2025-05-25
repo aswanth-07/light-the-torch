@@ -23,8 +23,9 @@ Here's how this repo is structured:
 
 | Notebook File Name              | Topic / Module Covered                        | Key Concepts Demonstrated                                                                                   | Status       |
 | ------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ |
-| [`01 - PyTorch Fundamentals.ipynb`](notebooks/00%20-%20PyTorch%20Fundamentals.ipynb) | Intro to PyTorch Tensors                   | Tensor creation & manipulation (indexing, reshaping, viewing, stacking, squeezing, unsqueezing, permuting), common operations, datatypes, NumPy bridge, GPU acceleration, reproducibility                 | ✅ Completed |
-| [`02 - PyTorch Workflow.ipynb`](notebooks/01%20-%20PyTorch%20Workflow.ipynb)        | End-to-End Linear Regression               | Custom `nn.Module`, device-agnostic code, training loop, loss/optimizer, predictions, save/load model       | ✅ Completed |
+| [`00 - PyTorch Fundamentals.ipynb`](notebooks/00%20-%20PyTorch%20Fundamentals.ipynb) | Intro to PyTorch Tensors                   | Tensor creation & manipulation (indexing, reshaping, viewing, stacking, squeezing, unsqueezing, permuting), common operations, datatypes, NumPy bridge, GPU acceleration, reproducibility                 | ✅ Completed |
+| [`01 - PyTorch Workflow.ipynb`](notebooks/01%20-%20PyTorch%20Workflow.ipynb)        | End-to-End Linear Regression               | Custom `nn.Module`, device-agnostic code, training loop, loss/optimizer, predictions, save/load model       | ✅ Completed |
+| [`01.1 - Practice PyTorch Workflow.ipynb`](notebooks/01.1%20-%20Practice%20PyTorch%20Workflow.ipynb) | Practice: End-to-End Linear Regression | Data loading (CSV) & preprocessing (StandardScaler), custom `nn.Module` for regression, train/test split, full training/evaluation loop (L1Loss, SGD), model persistence (save/load), R2 score for evaluation | ✅ Completed |
 
 > ✨ *I'll keep this table updated as I work through new notebooks and modules!*
 
