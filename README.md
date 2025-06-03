@@ -86,6 +86,14 @@ Here’s where I’ll occasionally jot down thoughts or things that stood out:
 - Grasping the standard training loop (forward pass, loss calculation, zero gradients, backward pass, optimizer step) is fundamental for building and training models.
 - PyTorch's `nn.Module` and `nn.Parameter` provide a powerful and flexible way to define custom models and their learnable parameters.
 - Saving and loading model states with `torch.save()` and `load_state_dict()` is straightforward for model persistence and sharing.
+- Understanding the differences between binary and multi-class classification is key:
+    - Output layer units (1 for binary, N classes for multi-class).
+    - Loss functions (`nn.BCEWithLogitsLoss` for binary, `nn.CrossEntropyLoss` for multi-class).
+    - Activation functions (e.g., `nn.Sigmoid` often used with binary, `nn.Softmax` implicitly with `CrossEntropyLoss` for multi-class).
+- Adding non-linear activation functions like `nn.ReLU` is crucial for models to learn complex patterns.
+- Visualizing decision boundaries is a great way to understand how a classification model is learning.
+- Real-world datasets often require preprocessing, such as handling missing values, before model training.
+- For multi-class predictions, `torch.argmax` is used to find the class with the highest probability.
 
 ---
 
