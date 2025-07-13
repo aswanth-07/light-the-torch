@@ -50,7 +50,6 @@ Want to try these notebooks locally? Here's how:
    ```
 
 3. **Install required packages:**
-   > First, make sure you've renamed `requirements.txt.txt` to `requirements.txt` if needed.
    ```bash
    pip install -r requirements.txt
    ```
