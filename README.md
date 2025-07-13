@@ -27,6 +27,7 @@ Here's how this repo is structured:
 | [`01 - PyTorch Workflow.ipynb`](notebooks/01%20-%20PyTorch%20Workflow.ipynb)        | End-to-End Linear Regression               | Custom `nn.Module`, device-agnostic code, training loop, loss/optimizer, predictions, save/load model       | ✅ Completed |
 | [`01.1 - Practice PyTorch Workflow.ipynb`](notebooks/01.1%20-%20Practice%20PyTorch%20Workflow.ipynb) | Practice: End-to-End Linear Regression | Data loading (CSV) & preprocessing (StandardScaler), custom `nn.Module` for regression, train/test split, full training/evaluation loop (L1Loss, SGD), model persistence (save/load), R2 score for evaluation | ✅ Completed |
 | [`02 - PyTorch Classification.ipynb`](notebooks/02%20-%20PyTorch%20Classification.ipynb) | Binary & Multi-class Classification      | `make_circles` dataset, custom `nn.Module` for binary classification, `nn.ReLU`, `nn.BCEWithLogitsLoss`, `SGD`, decision boundary plotting, multi-class classification with custom dataset, data preprocessing (missing values), `nn.CrossEntropyLoss`, `Adam`, `torch.argmax` for multi-class predictions | ✅ Completed |
+| [`03 - PyTorch CNN and CV.ipynb`](notebooks/03%20-%20PyTorch%20CNN%20and%20CV.ipynb) | Computer Vision & CNNs | `torchvision.datasets` (FashionMNIST), `DataLoader`, custom CNN (`nn.Module`, `nn.Conv2d`, `nn.MaxPool2d`), training/evaluation loops, model comparison (MLP vs. CNN), confusion matrix, saving models. | ✅ Completed |
 
 > ✨ *I'll keep this table updated as I work through new notebooks and modules!*
 
@@ -94,6 +95,11 @@ Here’s where I’ll occasionally jot down thoughts or things that stood out:
 - Visualizing decision boundaries is a great way to understand how a classification model is learning.
 - Real-world datasets often require preprocessing, such as handling missing values, before model training.
 - For multi-class predictions, `torch.argmax` is used to find the class with the highest probability.
+- `DataLoader` is essential for batching data, which improves computational efficiency and provides more frequent gradient updates.
+- `torchvision` is the go-to library for computer vision in PyTorch, offering datasets, models, and transforms.
+- The output dimensions of a `Conv2d` layer can be calculated with the formula: `output = floor((input_size - kernel_size + 2 * padding) / stride) + 1`. This is crucial for designing CNN architectures.
+- Building custom CNNs involves stacking `nn.Conv2d` and `nn.MaxPool2d` layers to learn spatial hierarchies from image data.
+- A confusion matrix is a powerful tool for evaluating classification models, offering a more detailed breakdown of performance than accuracy alone.
 
 ---
 
